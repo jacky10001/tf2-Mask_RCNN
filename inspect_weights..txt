@@ -1,0 +1,691 @@
+WEIGHT NAME                                        SHAPE             MIN           MAX           STD      
+conv1/kernel:0                                 (7, 7, 3, 64)        -0.8546        +0.8473      +0.1305   
+conv1/bias:0                                       (64,)            -0.0001        +0.0001      +0.0000   
+bn_conv1/gamma:0                                   (64,)            +0.0835        +2.6244      +0.5057   
+bn_conv1/beta:0                                    (64,)            -2.3942        +5.3658      +1.9789   
+bn_conv1/moving_mean:0                             (64,)          -172.9685       +94.5717     +42.0063   
+bn_conv1/moving_variance:0 *Overflow?              (64,)            +0.0000    +110557.9688  +16228.7607  
+res2a_branch2a/kernel:0                        (1, 1, 64, 64)       -0.6536        +0.3163      +0.0762   
+res2a_branch2a/bias:0                              (64,)            -0.0008        +0.0029      +0.0007   
+bn2a_branch2a/gamma:0                              (64,)            +0.2169        +1.8489      +0.4113   
+bn2a_branch2a/beta:0                               (64,)            -2.1180        +3.7337      +1.1790   
+bn2a_branch2a/moving_mean:0                        (64,)            -6.3118        +7.4370      +2.4037   
+bn2a_branch2a/moving_variance:0                    (64,)            +0.0000        +8.8091      +2.1498   
+res2a_branch2b/kernel:0                        (3, 3, 64, 64)       -0.3816        +0.5103      +0.0321   
+res2a_branch2b/bias:0                              (64,)            -0.0011        +0.0009      +0.0004   
+bn2a_branch2b/gamma:0                              (64,)            +0.3165        +1.7224      +0.3098   
+bn2a_branch2b/beta:0                               (64,)            -1.9348        +4.5446      +1.5116   
+bn2a_branch2b/moving_mean:0                        (64,)            -6.7890        +4.2754      +2.2064   
+bn2a_branch2b/moving_variance:0                    (64,)            +0.0000        +5.5464      +1.1573   
+res2a_branch2c/kernel:0                       (1, 1, 64, 256)       -0.4401        +0.3582      +0.0408   
+res2a_branch2c/bias:0                              (256,)           -0.0017        +0.0018      +0.0006   
+res2a_branch1/kernel:0                        (1, 1, 64, 256)       -0.8491        +0.7553      +0.0695   
+res2a_branch1/bias:0                               (256,)           -0.0010        +0.0010      +0.0003   
+bn2a_branch2c/gamma:0                              (256,)           -0.5813        +3.1804      +0.6199   
+bn2a_branch2c/beta:0                               (256,)           -1.1408        +1.4278      +0.4229   
+bn2a_branch2c/moving_mean:0                        (256,)           -4.2796        +3.1055      +1.0352   
+bn2a_branch2c/moving_variance:0                    (256,)           +0.0000        +2.6966      +0.4085   
+bn2a_branch1/gamma:0                               (256,)           +0.2393        +3.5008      +0.6239   
+bn2a_branch1/beta:0                                (256,)           -1.1408        +1.4278      +0.4229   
+bn2a_branch1/moving_mean:0                         (256,)           -8.1191        +8.7749      +2.0398   
+bn2a_branch1/moving_variance:0                     (256,)           +0.0000       +10.3201      +1.6540   
+res2b_branch2a/kernel:0                       (1, 1, 256, 64)       -0.2447        +0.2260      +0.0356   
+res2b_branch2a/bias:0                              (64,)            -0.0013        +0.0011      +0.0005   
+bn2b_branch2a/gamma:0                              (64,)            +0.2032        +1.7717      +0.3814   
+bn2b_branch2a/beta:0                               (64,)            -2.0544        +1.6680      +0.8848   
+bn2b_branch2a/moving_mean:0                        (64,)            -1.8157        +1.7829      +0.7466   
+bn2b_branch2a/moving_variance:0                    (64,)            +0.0000        +3.2496      +0.7830   
+res2b_branch2b/kernel:0                        (3, 3, 64, 64)       -0.5192        +0.3403      +0.0354   
+res2b_branch2b/bias:0                              (64,)            -0.0018        +0.0012      +0.0006   
+bn2b_branch2b/gamma:0                              (64,)            +0.5178        +1.4700      +0.2258   
+bn2b_branch2b/beta:0                               (64,)            -2.4528        +2.7550      +1.1957   
+bn2b_branch2b/moving_mean:0                        (64,)            -1.8361        +0.9368      +0.5723   
+bn2b_branch2b/moving_variance:0                    (64,)            +0.0938        +1.0783      +0.2077   
+res2b_branch2c/kernel:0                       (1, 1, 64, 256)       -0.3332        +0.3226      +0.0411   
+res2b_branch2c/bias:0                              (256,)           -0.0022        +0.0034      +0.0008   
+bn2b_branch2c/gamma:0                              (256,)           -0.0318        +1.7924      +0.4220   
+bn2b_branch2c/beta:0                               (256,)           -1.2936        +0.9631      +0.3430   
+bn2b_branch2c/moving_mean:0                        (256,)           -2.5336        +2.1111      +0.5033   
+bn2b_branch2c/moving_variance:0                    (256,)           +0.0000        +0.2187      +0.0333   
+res2c_branch2a/kernel:0                       (1, 1, 256, 64)       -0.3006        +0.2164      +0.0411   
+res2c_branch2a/bias:0                              (64,)            -0.0005        +0.0013      +0.0004   
+bn2c_branch2a/gamma:0                              (64,)            +0.2659        +1.8179      +0.2835   
+bn2c_branch2a/beta:0                               (64,)            -2.0170        +0.8437      +0.7875   
+bn2c_branch2a/moving_mean:0                        (64,)            -4.7340        +1.6664      +1.2255   
+bn2c_branch2a/moving_variance:0                    (64,)            +0.0000        +3.4985      +0.7644   
+res2c_branch2b/kernel:0                        (3, 3, 64, 64)       -0.2008        +0.2150      +0.0375   
+res2c_branch2b/bias:0                              (64,)            -0.0014        +0.0016      +0.0007   
+bn2c_branch2b/gamma:0                              (64,)            +0.6153        +1.5361      +0.2150   
+bn2c_branch2b/beta:0                               (64,)            -2.4090        +1.8154      +0.6295   
+bn2c_branch2b/moving_mean:0                        (64,)            -1.4939        +0.1422      +0.2628   
+bn2c_branch2b/moving_variance:0                    (64,)            +0.2278        +2.0831      +0.3304   
+res2c_branch2c/kernel:0                       (1, 1, 64, 256)       -0.2855        +0.2533      +0.0429   
+res2c_branch2c/bias:0                              (256,)           -0.0011        +0.0076      +0.0011   
+bn2c_branch2c/gamma:0                              (256,)           -0.0192        +2.3667      +0.5249   
+bn2c_branch2c/beta:0                               (256,)           -1.6829        +1.0985      +0.4280   
+bn2c_branch2c/moving_mean:0                        (256,)           -1.2794        +0.7256      +0.2929   
+bn2c_branch2c/moving_variance:0                    (256,)           +0.0010        +0.7414      +0.1125   
+res3a_branch2a/kernel:0                       (1, 1, 256, 128)      -0.4984        +0.6161      +0.0302   
+res3a_branch2a/bias:0                              (128,)           -0.0017        +0.0008      +0.0004   
+bn3a_branch2a/gamma:0                              (128,)           +0.4873        +1.3152      +0.1878   
+bn3a_branch2a/beta:0                               (128,)           -1.8389        +2.5616      +0.7570   
+bn3a_branch2a/moving_mean:0                        (128,)           -4.2267        +2.1703      +0.9005   
+bn3a_branch2a/moving_variance:0                    (128,)           +0.0545        +8.9011      +1.2696   
+res3a_branch2b/kernel:0                       (3, 3, 128, 128)      -0.3216        +0.4473      +0.0221   
+res3a_branch2b/bias:0                              (128,)           -0.0006        +0.0008      +0.0002   
+bn3a_branch2b/gamma:0                              (128,)           +0.4666        +1.8255      +0.2179   
+bn3a_branch2b/beta:0                               (128,)           -1.9432        +1.8970      +0.7859   
+bn3a_branch2b/moving_mean:0                        (128,)           -6.0335        +3.2213      +1.9778   
+bn3a_branch2b/moving_variance:0                    (128,)           +0.0001        +6.6136      +0.8450   
+res3a_branch2c/kernel:0                       (1, 1, 128, 512)      -0.4896        +0.3375      +0.0281   
+res3a_branch2c/bias:0                              (512,)           -0.0028        +0.0021      +0.0005   
+res3a_branch1/kernel:0                        (1, 1, 256, 512)      -0.4486        +0.6640      +0.0288   
+res3a_branch1/bias:0                               (512,)           -0.0028        +0.0009      +0.0003   
+bn3a_branch2c/gamma:0                              (512,)           -0.0035        +3.6967      +0.6166   
+bn3a_branch2c/beta:0                               (512,)           -0.9610        +1.4446      +0.3692   
+bn3a_branch2c/moving_mean:0                        (512,)           -1.5891        +1.4301      +0.3907   
+bn3a_branch2c/moving_variance:0                    (512,)           +0.0002        +0.8632      +0.1073   
+bn3a_branch1/gamma:0                               (512,)           -0.0147        +2.6947      +0.4766   
+bn3a_branch1/beta:0                                (512,)           -0.9611        +1.4446      +0.3692   
+bn3a_branch1/moving_mean:0                         (512,)           -3.7382        +2.8448      +0.8043   
+bn3a_branch1/moving_variance:0                     (512,)           +0.0029        +5.7492      +0.6063   
+res3b_branch2a/kernel:0                       (1, 1, 512, 128)      -0.1990        +0.1928      +0.0251   
+res3b_branch2a/bias:0                              (128,)           -0.0006        +0.0008      +0.0003   
+bn3b_branch2a/gamma:0                              (128,)           +0.5897        +1.5333      +0.1790   
+bn3b_branch2a/beta:0                               (128,)           -3.9542        +0.6810      +0.6431   
+bn3b_branch2a/moving_mean:0                        (128,)           -3.0865        +1.0082      +0.6388   
+bn3b_branch2a/moving_variance:0                    (128,)           +0.2999        +3.6467      +0.6298   
+res3b_branch2b/kernel:0                       (3, 3, 128, 128)      -0.2281        +0.2746      +0.0239   
+res3b_branch2b/bias:0                              (128,)           -0.0008        +0.0020      +0.0005   
+bn3b_branch2b/gamma:0                              (128,)           +0.4825        +1.4912      +0.2339   
+bn3b_branch2b/beta:0                               (128,)           -2.4206        +1.4212      +0.6770   
+bn3b_branch2b/moving_mean:0                        (128,)           -2.1539        +1.4636      +0.5130   
+bn3b_branch2b/moving_variance:0                    (128,)           +0.0961        +1.6067      +0.2474   
+res3b_branch2c/kernel:0                       (1, 1, 128, 512)      -0.3084        +0.4621      +0.0287   
+res3b_branch2c/bias:0                              (512,)           -0.0022        +0.0044      +0.0007   
+bn3b_branch2c/gamma:0                              (512,)           -0.0373        +2.0098      +0.4045   
+bn3b_branch2c/beta:0                               (512,)           -1.5768        +1.1615      +0.3743   
+bn3b_branch2c/moving_mean:0                        (512,)           -1.0827        +0.6886      +0.2301   
+bn3b_branch2c/moving_variance:0                    (512,)           +0.0002        +0.2121      +0.0303   
+res3c_branch2a/kernel:0                       (1, 1, 512, 128)      -0.2631        +0.2637      +0.0282   
+res3c_branch2a/bias:0                              (128,)           -0.0008        +0.0015      +0.0003   
+bn3c_branch2a/gamma:0                              (128,)           +0.5937        +1.4906      +0.1893   
+bn3c_branch2a/beta:0                               (128,)           -2.8071        +0.7264      +0.5404   
+bn3c_branch2a/moving_mean:0                        (128,)           -3.0245        +1.7478      +0.8335   
+bn3c_branch2a/moving_variance:0                    (128,)           +0.2705        +3.8971      +0.7585   
+res3c_branch2b/kernel:0                       (3, 3, 128, 128)      -0.2278        +0.1968      +0.0231   
+res3c_branch2b/bias:0                              (128,)           -0.0012        +0.0026      +0.0007   
+bn3c_branch2b/gamma:0                              (128,)           +0.4447        +1.5767      +0.2847   
+bn3c_branch2b/beta:0                               (128,)           -1.4160        +1.3168      +0.5547   
+bn3c_branch2b/moving_mean:0                        (128,)           -1.0368        +0.7158      +0.2785   
+bn3c_branch2b/moving_variance:0                    (128,)           +0.1252        +0.9441      +0.1439   
+res3c_branch2c/kernel:0                       (1, 1, 128, 512)      -0.3047        +0.3769      +0.0261   
+res3c_branch2c/bias:0                              (512,)           -0.0022        +0.0030      +0.0007   
+bn3c_branch2c/gamma:0                              (512,)           -0.0352        +1.8956      +0.3768   
+bn3c_branch2c/beta:0                               (512,)           -1.5424        +0.8267      +0.3610   
+bn3c_branch2c/moving_mean:0                        (512,)           -0.8692        +0.7091      +0.1843   
+bn3c_branch2c/moving_variance:0                    (512,)           +0.0002        +0.1747      +0.0270   
+res3d_branch2a/kernel:0                       (1, 1, 512, 128)      -0.2580        +0.2867      +0.0305   
+res3d_branch2a/bias:0                              (128,)           -0.0006        +0.0005      +0.0002   
+bn3d_branch2a/gamma:0                              (128,)           +0.6436        +1.4512      +0.1920   
+bn3d_branch2a/beta:0                               (128,)           -2.9768        +0.6126      +0.6394   
+bn3d_branch2a/moving_mean:0                        (128,)           -3.7891        +2.2792      +0.9724   
+bn3d_branch2a/moving_variance:0                    (128,)           +0.0035        +3.3270      +0.5634   
+res3d_branch2b/kernel:0                       (3, 3, 128, 128)      -0.1596        +0.2396      +0.0236   
+res3d_branch2b/bias:0                              (128,)           -0.0009        +0.0021      +0.0005   
+bn3d_branch2b/gamma:0                              (128,)           +0.6448        +3.2656      +0.2900   
+bn3d_branch2b/beta:0                               (128,)           -1.6515        +1.5589      +0.5597   
+bn3d_branch2b/moving_mean:0                        (128,)           -1.0483        +0.3162      +0.2877   
+bn3d_branch2b/moving_variance:0                    (128,)           +0.2354        +1.6038      +0.2114   
+res3d_branch2c/kernel:0                       (1, 1, 128, 512)      -0.2401        +0.3373      +0.0269   
+res3d_branch2c/bias:0                              (512,)           -0.0014        +0.0018      +0.0005   
+bn3d_branch2c/gamma:0                              (512,)           -0.0237        +1.9211      +0.5162   
+bn3d_branch2c/beta:0                               (512,)           -1.0557        +0.9750      +0.2713   
+bn3d_branch2c/moving_mean:0                        (512,)           -1.1224        +0.4736      +0.2424   
+bn3d_branch2c/moving_variance:0                    (512,)           +0.0002        +0.4452      +0.0605   
+res4a_branch2a/kernel:0                       (1, 1, 512, 256)      -0.2809        +0.2525      +0.0148   
+res4a_branch2a/bias:0                              (256,)           -0.0006        +0.0005      +0.0002   
+bn4a_branch2a/gamma:0                              (256,)           +0.4764        +1.4605      +0.1496   
+bn4a_branch2a/beta:0                               (256,)           -1.9415        +1.1187      +0.3881   
+bn4a_branch2a/moving_mean:0                        (256,)           -3.6537        +1.2955      +0.6511   
+bn4a_branch2a/moving_variance:0                    (256,)           +0.0614        +2.4605      +0.3051   
+res4a_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1701        +0.1949      +0.0105   
+res4a_branch2b/bias:0                              (256,)           -0.0007        +0.0006      +0.0003   
+bn4a_branch2b/gamma:0                              (256,)           +0.4721        +1.5784      +0.1985   
+bn4a_branch2b/beta:0                               (256,)           -2.5978        +1.1150      +0.4805   
+bn4a_branch2b/moving_mean:0                        (256,)           -2.6573        +3.4857      +0.5984   
+bn4a_branch2b/moving_variance:0                    (256,)           +0.1394        +1.4291      +0.2191   
+res4a_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.2814        +0.1890      +0.0139   
+res4a_branch2c/bias:0                             (1024,)           -0.0017        +0.0021      +0.0004   
+res4a_branch1/kernel:0                       (1, 1, 512, 1024)      -0.3550        +0.3359      +0.0157   
+res4a_branch1/bias:0                              (1024,)           -0.0009        +0.0006      +0.0002   
+bn4a_branch2c/gamma:0                             (1024,)           -0.0097        +2.8164      +0.4544   
+bn4a_branch2c/beta:0                              (1024,)           -0.5241        +2.0441      +0.2861   
+bn4a_branch2c/moving_mean:0                       (1024,)           -0.4885        +0.2798      +0.0831   
+bn4a_branch2c/moving_variance:0                   (1024,)           +0.0000        +0.1206      +0.0119   
+bn4a_branch1/gamma:0                              (1024,)           +0.1706        +3.9847      +0.7124   
+bn4a_branch1/beta:0                               (1024,)           -0.5241        +2.0443      +0.2861   
+bn4a_branch1/moving_mean:0                        (1024,)           -5.8239        +3.2843      +0.9039   
+bn4a_branch1/moving_variance:0                    (1024,)           +0.0546        +8.5205      +0.6964   
+res4b_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1249        +0.1757      +0.0080   
+res4b_branch2a/bias:0                              (256,)           -0.0003        +0.0002      +0.0001   
+bn4b_branch2a/gamma:0                              (256,)           +0.4164        +1.5920      +0.1867   
+bn4b_branch2a/beta:0                               (256,)           -2.2047        +2.0419      +0.4852   
+bn4b_branch2a/moving_mean:0                        (256,)           -4.6812        +2.7681      +1.1843   
+bn4b_branch2a/moving_variance:0                    (256,)           +0.1327       +11.9923      +1.3851   
+res4b_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0961        +0.1620      +0.0072   
+res4b_branch2b/bias:0                              (256,)           -0.0006        +0.0006      +0.0002   
+bn4b_branch2b/gamma:0                              (256,)           +0.5004        +1.4635      +0.1880   
+bn4b_branch2b/beta:0                               (256,)           -1.6813        +0.5871      +0.4319   
+bn4b_branch2b/moving_mean:0                        (256,)           -5.7095        +1.9171      +0.8444   
+bn4b_branch2b/moving_variance:0                    (256,)           +0.0203        +1.3132      +0.2172   
+res4b_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1969        +0.2788      +0.0102   
+res4b_branch2c/bias:0                             (1024,)           -0.0018        +0.0019      +0.0005   
+bn4b_branch2c/gamma:0                             (1024,)           -0.0005        +3.1542      +0.3623   
+bn4b_branch2c/beta:0                              (1024,)           -1.0585        +0.9439      +0.1802   
+bn4b_branch2c/moving_mean:0                       (1024,)           -0.4443        +0.4752      +0.0943   
+bn4b_branch2c/moving_variance:0                   (1024,)           +0.0000        +0.1888      +0.0161   
+res4c_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.0983        +0.1237      +0.0082   
+res4c_branch2a/bias:0                              (256,)           -0.0003        +0.0003      +0.0001   
+bn4c_branch2a/gamma:0                              (256,)           +0.5709        +1.7536      +0.1408   
+bn4c_branch2a/beta:0                               (256,)           -0.9244        +1.3176      +0.3731   
+bn4c_branch2a/moving_mean:0                        (256,)           -4.0562        +2.6203      +1.2418   
+bn4c_branch2a/moving_variance:0                    (256,)           +0.3526        +5.5460      +0.6766   
+res4c_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0975        +0.1094      +0.0073   
+res4c_branch2b/bias:0                              (256,)           -0.0005        +0.0005      +0.0002   
+bn4c_branch2b/gamma:0                              (256,)           +0.5016        +1.2176      +0.1486   
+bn4c_branch2b/beta:0                               (256,)           -1.4415        +0.5762      +0.3367   
+bn4c_branch2b/moving_mean:0                        (256,)           -3.4174        +1.7898      +0.5966   
+bn4c_branch2b/moving_variance:0                    (256,)           +0.0730        +1.5945      +0.1712   
+res4c_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1333        +0.1623      +0.0106   
+res4c_branch2c/bias:0                             (1024,)           -0.0023        +0.0021      +0.0005   
+bn4c_branch2c/gamma:0                             (1024,)           +0.0044        +2.2688      +0.2646   
+bn4c_branch2c/beta:0                              (1024,)           -1.1018        +0.7332      +0.1791   
+bn4c_branch2c/moving_mean:0                       (1024,)           -0.3355        +0.1449      +0.0609   
+bn4c_branch2c/moving_variance:0                   (1024,)           +0.0003        +0.0969      +0.0076   
+res4d_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1146        +0.1468      +0.0102   
+res4d_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4d_branch2a/gamma:0                              (256,)           +0.5668        +1.4397      +0.1490   
+bn4d_branch2a/beta:0                               (256,)           -1.3445        +0.4760      +0.3036   
+bn4d_branch2a/moving_mean:0                        (256,)           -3.2371        +2.2156      +0.9378   
+bn4d_branch2a/moving_variance:0                    (256,)           +0.3515        +5.9965      +0.7573   
+res4d_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0995        +0.0983      +0.0087   
+res4d_branch2b/bias:0                              (256,)           -0.0009        +0.0015      +0.0004   
+bn4d_branch2b/gamma:0                              (256,)           +0.4275        +1.5385      +0.1600   
+bn4d_branch2b/beta:0                               (256,)           -1.4341        +0.3843      +0.2816   
+bn4d_branch2b/moving_mean:0                        (256,)           -1.4094        +0.7436      +0.2812   
+bn4d_branch2b/moving_variance:0                    (256,)           +0.0523        +0.4509      +0.0769   
+res4d_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.2375        +0.1236      +0.0117   
+res4d_branch2c/bias:0                             (1024,)           -0.0028        +0.0029      +0.0007   
+bn4d_branch2c/gamma:0                             (1024,)           +0.0455        +2.8447      +0.3286   
+bn4d_branch2c/beta:0                              (1024,)           -1.3528        +0.5919      +0.2292   
+bn4d_branch2c/moving_mean:0                       (1024,)           -0.3255        +0.1030      +0.0535   
+bn4d_branch2c/moving_variance:0                   (1024,)           +0.0017        +0.1031      +0.0077   
+res4e_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1462        +0.1113      +0.0100   
+res4e_branch2a/bias:0                              (256,)           -0.0002        +0.0002      +0.0001   
+bn4e_branch2a/gamma:0                              (256,)           +0.6403        +1.3673      +0.1231   
+bn4e_branch2a/beta:0                               (256,)           -1.0864        +0.3549      +0.2687   
+bn4e_branch2a/moving_mean:0                        (256,)           -4.3375        +1.8791      +1.1414   
+bn4e_branch2a/moving_variance:0                    (256,)           +0.3798        +4.6768      +0.6343   
+res4e_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0856        +0.0924      +0.0090   
+res4e_branch2b/bias:0                              (256,)           -0.0008        +0.0012      +0.0004   
+bn4e_branch2b/gamma:0                              (256,)           +0.5460        +1.2863      +0.1314   
+bn4e_branch2b/beta:0                               (256,)           -1.2792        +0.2207      +0.2525   
+bn4e_branch2b/moving_mean:0                        (256,)           -1.6195        +0.8106      +0.3150   
+bn4e_branch2b/moving_variance:0                    (256,)           +0.0594        +0.9789      +0.1007   
+res4e_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.2018        +0.1748      +0.0119   
+res4e_branch2c/bias:0                             (1024,)           -0.0019        +0.0025      +0.0007   
+bn4e_branch2c/gamma:0                             (1024,)           +0.0236        +1.7311      +0.1827   
+bn4e_branch2c/beta:0                              (1024,)           -1.0506        +0.4076      +0.1765   
+bn4e_branch2c/moving_mean:0                       (1024,)           -0.2640        +0.1132      +0.0421   
+bn4e_branch2c/moving_variance:0                   (1024,)           +0.0009        +0.0492      +0.0041   
+res4f_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.0841        +0.1229      +0.0104   
+res4f_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4f_branch2a/gamma:0                              (256,)           +0.6962        +1.3806      +0.0997   
+bn4f_branch2a/beta:0                               (256,)           -1.1552        +0.3896      +0.2461   
+bn4f_branch2a/moving_mean:0                        (256,)           -4.4642        +2.1927      +1.1421   
+bn4f_branch2a/moving_variance:0                    (256,)           +0.4538        +4.7501      +0.7294   
+res4f_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1018        +0.1011      +0.0095   
+res4f_branch2b/bias:0                              (256,)           -0.0007        +0.0014      +0.0003   
+bn4f_branch2b/gamma:0                              (256,)           +0.4244        +1.2407      +0.1098   
+bn4f_branch2b/beta:0                               (256,)           -1.4288        +0.5172      +0.2441   
+bn4f_branch2b/moving_mean:0                        (256,)           -1.8044        +1.5505      +0.3778   
+bn4f_branch2b/moving_variance:0                    (256,)           +0.0635        +0.6795      +0.0933   
+res4f_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1417        +0.1284      +0.0118   
+res4f_branch2c/bias:0                             (1024,)           -0.0021        +0.0032      +0.0008   
+bn4f_branch2c/gamma:0                             (1024,)           +0.1766        +1.6157      +0.1733   
+bn4f_branch2c/beta:0                              (1024,)           -0.9799        +0.2975      +0.1410   
+bn4f_branch2c/moving_mean:0                       (1024,)           -0.1586        +0.0747      +0.0354   
+bn4f_branch2c/moving_variance:0                   (1024,)           +0.0012        +0.0210      +0.0024   
+res4g_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1142        +0.2427      +0.0107   
+res4g_branch2a/bias:0                              (256,)           -0.0004        +0.0003      +0.0001   
+bn4g_branch2a/gamma:0                              (256,)           +0.6038        +1.2004      +0.1063   
+bn4g_branch2a/beta:0                               (256,)           -1.2671        +0.2339      +0.2815   
+bn4g_branch2a/moving_mean:0                        (256,)           -4.3445        +1.4500      +1.0834   
+bn4g_branch2a/moving_variance:0                    (256,)           +0.3768        +3.8029      +0.7079   
+res4g_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1262        +0.1216      +0.0097   
+res4g_branch2b/bias:0                              (256,)           -0.0009        +0.0011      +0.0004   
+bn4g_branch2b/gamma:0                              (256,)           +0.4734        +1.7335      +0.1337   
+bn4g_branch2b/beta:0                               (256,)           -1.2605        +0.1890      +0.2691   
+bn4g_branch2b/moving_mean:0                        (256,)           -1.1725        +1.0331      +0.2961   
+bn4g_branch2b/moving_variance:0                    (256,)           +0.0579        +0.7416      +0.0856   
+res4g_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1488        +0.2289      +0.0118   
+res4g_branch2c/bias:0                             (1024,)           -0.0018        +0.0039      +0.0008   
+bn4g_branch2c/gamma:0                             (1024,)           +0.0901        +1.8093      +0.1969   
+bn4g_branch2c/beta:0                              (1024,)           -0.9017        +0.2922      +0.1410   
+bn4g_branch2c/moving_mean:0                       (1024,)           -0.1887        +0.0784      +0.0394   
+bn4g_branch2c/moving_variance:0                   (1024,)           +0.0013        +0.0316      +0.0033   
+res4h_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1303        +0.1609      +0.0116   
+res4h_branch2a/bias:0                              (256,)           -0.0004        +0.0004      +0.0001   
+bn4h_branch2a/gamma:0                              (256,)           +0.6206        +1.2079      +0.0982   
+bn4h_branch2a/beta:0                               (256,)           -1.4118        +0.0727      +0.2609   
+bn4h_branch2a/moving_mean:0                        (256,)           -3.7871        +2.4121      +0.9370   
+bn4h_branch2a/moving_variance:0                    (256,)           +0.5296        +3.3483      +0.5827   
+res4h_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0986        +0.1226      +0.0101   
+res4h_branch2b/bias:0                              (256,)           -0.0015        +0.0016      +0.0005   
+bn4h_branch2b/gamma:0                              (256,)           +0.4799        +1.4777      +0.1471   
+bn4h_branch2b/beta:0                               (256,)           -1.5816        +0.4312      +0.2519   
+bn4h_branch2b/moving_mean:0                        (256,)           -1.0446        +1.1061      +0.2066   
+bn4h_branch2b/moving_variance:0                    (256,)           +0.0492        +0.5152      +0.0675   
+res4h_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1449        +0.2347      +0.0120   
+res4h_branch2c/bias:0                             (1024,)           -0.0022        +0.0043      +0.0007   
+bn4h_branch2c/gamma:0                             (1024,)           +0.0530        +2.4668      +0.2955   
+bn4h_branch2c/beta:0                              (1024,)           -0.7956        +0.3314      +0.1519   
+bn4h_branch2c/moving_mean:0                       (1024,)           -0.2073        +0.1215      +0.0407   
+bn4h_branch2c/moving_variance:0                   (1024,)           +0.0012        +0.0485      +0.0043   
+res4i_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1306        +0.2984      +0.0129   
+res4i_branch2a/bias:0                              (256,)           -0.0003        +0.0005      +0.0001   
+bn4i_branch2a/gamma:0                              (256,)           +0.3531        +1.0495      +0.1264   
+bn4i_branch2a/beta:0                               (256,)           -1.4704        +0.4523      +0.2769   
+bn4i_branch2a/moving_mean:0                        (256,)           -4.1849        +2.5485      +1.1041   
+bn4i_branch2a/moving_variance:0                    (256,)           +0.7884        +7.4350      +0.6603   
+res4i_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1275        +0.1531      +0.0092   
+res4i_branch2b/bias:0                              (256,)           -0.0025        +0.0036      +0.0008   
+bn4i_branch2b/gamma:0                              (256,)           +0.5641        +1.6265      +0.1408   
+bn4i_branch2b/beta:0                               (256,)           -1.4846        +0.4763      +0.2636   
+bn4i_branch2b/moving_mean:0                        (256,)           -0.5127        +0.1199      +0.0935   
+bn4i_branch2b/moving_variance:0                    (256,)           +0.0143        +0.1193      +0.0159   
+res4i_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1536        +0.1542      +0.0118   
+res4i_branch2c/bias:0                             (1024,)           -0.0018        +0.0032      +0.0006   
+bn4i_branch2c/gamma:0                             (1024,)           +0.0403        +2.1602      +0.1849   
+bn4i_branch2c/beta:0                              (1024,)           -0.5913        +0.7021      +0.1253   
+bn4i_branch2c/moving_mean:0                       (1024,)           -0.4519        +0.1328      +0.0659   
+bn4i_branch2c/moving_variance:0                   (1024,)           +0.0008        +0.0992      +0.0064   
+res4j_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1201        +0.1719      +0.0124   
+res4j_branch2a/bias:0                              (256,)           -0.0003        +0.0004      +0.0001   
+bn4j_branch2a/gamma:0                              (256,)           +0.5034        +1.2831      +0.1153   
+bn4j_branch2a/beta:0                               (256,)           -1.9052        +0.2153      +0.2869   
+bn4j_branch2a/moving_mean:0                        (256,)           -4.7605        +1.3667      +0.9790   
+bn4j_branch2a/moving_variance:0                    (256,)           +0.8111        +8.3345      +0.7015   
+res4j_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0998        +0.2404      +0.0102   
+res4j_branch2b/bias:0                              (256,)           -0.0012        +0.0019      +0.0005   
+bn4j_branch2b/gamma:0                              (256,)           +0.4094        +1.4511      +0.1328   
+bn4j_branch2b/beta:0                               (256,)           -1.9449        +0.4951      +0.2976   
+bn4j_branch2b/moving_mean:0                        (256,)           -1.0420        +0.6202      +0.2047   
+bn4j_branch2b/moving_variance:0                    (256,)           +0.0464        +0.5519      +0.0491   
+res4j_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1386        +0.1625      +0.0118   
+res4j_branch2c/bias:0                             (1024,)           -0.0021        +0.0033      +0.0008   
+bn4j_branch2c/gamma:0                             (1024,)           +0.0291        +2.0871      +0.1973   
+bn4j_branch2c/beta:0                              (1024,)           -0.8281        +0.1717      +0.1242   
+bn4j_branch2c/moving_mean:0                       (1024,)           -0.2061        +0.0772      +0.0375   
+bn4j_branch2c/moving_variance:0                   (1024,)           +0.0003        +0.0274      +0.0028   
+res4k_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1347        +0.1886      +0.0112   
+res4k_branch2a/bias:0                              (256,)           -0.0003        +0.0004      +0.0001   
+bn4k_branch2a/gamma:0                              (256,)           +0.5378        +1.1973      +0.1223   
+bn4k_branch2a/beta:0                               (256,)           -1.7272        +0.3938      +0.3092   
+bn4k_branch2a/moving_mean:0                        (256,)           -6.0315        +1.7842      +1.1139   
+bn4k_branch2a/moving_variance:0                    (256,)           +0.3504        +4.6503      +0.6216   
+res4k_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0789        +0.1234      +0.0093   
+res4k_branch2b/bias:0                              (256,)           -0.0011        +0.0013      +0.0004   
+bn4k_branch2b/gamma:0                              (256,)           +0.4945        +1.2237      +0.1247   
+bn4k_branch2b/beta:0                               (256,)           -1.2793        +0.1984      +0.2591   
+bn4k_branch2b/moving_mean:0                        (256,)           -1.0697        +1.5169      +0.3087   
+bn4k_branch2b/moving_variance:0                    (256,)           +0.0201        +0.4110      +0.0620   
+res4k_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1252        +0.2119      +0.0111   
+res4k_branch2c/bias:0                             (1024,)           -0.0023        +0.0027      +0.0007   
+bn4k_branch2c/gamma:0                             (1024,)           +0.1154        +1.9927      +0.2077   
+bn4k_branch2c/beta:0                              (1024,)           -1.6104        +0.1856      +0.1600   
+bn4k_branch2c/moving_mean:0                       (1024,)           -0.1643        +0.0819      +0.0371   
+bn4k_branch2c/moving_variance:0                   (1024,)           +0.0018        +0.0433      +0.0044   
+res4l_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.2044        +0.1862      +0.0132   
+res4l_branch2a/bias:0                              (256,)           -0.0004        +0.0005      +0.0001   
+bn4l_branch2a/gamma:0                              (256,)           +0.4156        +1.5246      +0.1213   
+bn4l_branch2a/beta:0                               (256,)           -1.8444        +0.3059      +0.2974   
+bn4l_branch2a/moving_mean:0                        (256,)           -4.3532        +1.4638      +1.0180   
+bn4l_branch2a/moving_variance:0                    (256,)           +0.6372        +5.7646      +0.7036   
+res4l_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1072        +0.1714      +0.0099   
+res4l_branch2b/bias:0                              (256,)           -0.0013        +0.0032      +0.0007   
+bn4l_branch2b/gamma:0                              (256,)           +0.4011        +1.3422      +0.1295   
+bn4l_branch2b/beta:0                               (256,)           -1.4776        +0.4804      +0.2708   
+bn4l_branch2b/moving_mean:0                        (256,)           -0.4929        +0.3995      +0.1252   
+bn4l_branch2b/moving_variance:0                    (256,)           +0.0217        +0.2759      +0.0259   
+res4l_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1195        +0.1652      +0.0120   
+res4l_branch2c/bias:0                             (1024,)           -0.0023        +0.0029      +0.0008   
+bn4l_branch2c/gamma:0                             (1024,)           +0.0784        +1.6700      +0.1758   
+bn4l_branch2c/beta:0                              (1024,)           -1.0325        +0.7021      +0.1526   
+bn4l_branch2c/moving_mean:0                       (1024,)           -0.1533        +0.0933      +0.0373   
+bn4l_branch2c/moving_variance:0                   (1024,)           +0.0009        +0.0339      +0.0026   
+res4m_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.0783        +0.1587      +0.0116   
+res4m_branch2a/bias:0                              (256,)           -0.0003        +0.0005      +0.0001   
+bn4m_branch2a/gamma:0                              (256,)           +0.5355        +1.1833      +0.0989   
+bn4m_branch2a/beta:0                               (256,)           -1.2993        +0.3064      +0.2239   
+bn4m_branch2a/moving_mean:0                        (256,)           -5.8896        +1.3802      +1.0426   
+bn4m_branch2a/moving_variance:0                    (256,)           +0.5695        +7.6590      +0.7444   
+res4m_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1015        +0.1321      +0.0089   
+res4m_branch2b/bias:0                              (256,)           -0.0014        +0.0023      +0.0006   
+bn4m_branch2b/gamma:0                              (256,)           +0.5788        +1.1915      +0.1009   
+bn4m_branch2b/beta:0                               (256,)           -1.3689        +0.1971      +0.2354   
+bn4m_branch2b/moving_mean:0                        (256,)           -0.7877        +0.6563      +0.1876   
+bn4m_branch2b/moving_variance:0                    (256,)           +0.0295        +0.3663      +0.0473   
+res4m_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1438        +0.1585      +0.0111   
+res4m_branch2c/bias:0                             (1024,)           -0.0021        +0.0033      +0.0007   
+bn4m_branch2c/gamma:0                             (1024,)           +0.1858        +1.7955      +0.1696   
+bn4m_branch2c/beta:0                              (1024,)           -0.7631        +0.5816      +0.1474   
+bn4m_branch2c/moving_mean:0                       (1024,)           -0.2008        +0.0926      +0.0429   
+bn4m_branch2c/moving_variance:0                   (1024,)           +0.0013        +0.0343      +0.0039   
+res4n_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1174        +0.1571      +0.0126   
+res4n_branch2a/bias:0                              (256,)           -0.0004        +0.0003      +0.0001   
+bn4n_branch2a/gamma:0                              (256,)           +0.4669        +1.0863      +0.1116   
+bn4n_branch2a/beta:0                               (256,)           -1.2725        +0.0422      +0.2323   
+bn4n_branch2a/moving_mean:0                        (256,)           -3.2392        +1.7882      +0.8253   
+bn4n_branch2a/moving_variance:0                    (256,)           +0.6329        +3.4732      +0.4616   
+res4n_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1202        +0.1518      +0.0087   
+res4n_branch2b/bias:0                              (256,)           -0.0015        +0.0026      +0.0008   
+bn4n_branch2b/gamma:0                              (256,)           +0.4867        +1.1936      +0.1093   
+bn4n_branch2b/beta:0                               (256,)           -1.0328        +0.5962      +0.2185   
+bn4n_branch2b/moving_mean:0                        (256,)           -0.3883        +0.1123      +0.0881   
+bn4n_branch2b/moving_variance:0                    (256,)           +0.0143        +0.2724      +0.0217   
+res4n_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.0972        +0.1520      +0.0107   
+res4n_branch2c/bias:0                             (1024,)           -0.0026        +0.0024      +0.0006   
+bn4n_branch2c/gamma:0                             (1024,)           +0.1898        +1.6749      +0.1231   
+bn4n_branch2c/beta:0                              (1024,)           -0.7563        +0.6432      +0.1316   
+bn4n_branch2c/moving_mean:0                       (1024,)           -0.2299        +0.1080      +0.0471   
+bn4n_branch2c/moving_variance:0                   (1024,)           +0.0021        +0.0429      +0.0041   
+res4o_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.0874        +0.1296      +0.0122   
+res4o_branch2a/bias:0                              (256,)           -0.0004        +0.0004      +0.0001   
+bn4o_branch2a/gamma:0                              (256,)           +0.4142        +1.0781      +0.1035   
+bn4o_branch2a/beta:0                               (256,)           -1.5069        +0.1566      +0.2355   
+bn4o_branch2a/moving_mean:0                        (256,)           -6.5676        +1.6475      +1.1866   
+bn4o_branch2a/moving_variance:0                    (256,)           +0.6190        +5.9674      +0.6751   
+res4o_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0943        +0.1299      +0.0087   
+res4o_branch2b/bias:0                              (256,)           -0.0020        +0.0025      +0.0008   
+bn4o_branch2b/gamma:0                              (256,)           +0.5270        +1.2140      +0.1085   
+bn4o_branch2b/beta:0                               (256,)           -1.2508        +0.4131      +0.2243   
+bn4o_branch2b/moving_mean:0                        (256,)           -0.4420        +0.3259      +0.1114   
+bn4o_branch2b/moving_variance:0                    (256,)           +0.0193        +0.1740      +0.0210   
+res4o_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1532        +0.1576      +0.0108   
+res4o_branch2c/bias:0                             (1024,)           -0.0020        +0.0024      +0.0006   
+bn4o_branch2c/gamma:0                             (1024,)           +0.2345        +1.9078      +0.1528   
+bn4o_branch2c/beta:0                              (1024,)           -0.8016        +0.5618      +0.1388   
+bn4o_branch2c/moving_mean:0                       (1024,)           -0.2384        +0.1076      +0.0495   
+bn4o_branch2c/moving_variance:0                   (1024,)           +0.0016        +0.0486      +0.0047   
+res4p_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1437        +0.2002      +0.0134   
+res4p_branch2a/bias:0                              (256,)           -0.0003        +0.0004      +0.0001   
+bn4p_branch2a/gamma:0                              (256,)           +0.4988        +1.0444      +0.0903   
+bn4p_branch2a/beta:0                               (256,)           -1.4743        +0.0451      +0.2371   
+bn4p_branch2a/moving_mean:0                        (256,)           -3.1050        +2.3637      +0.9707   
+bn4p_branch2a/moving_variance:0                    (256,)           +0.7623        +3.6884      +0.5522   
+res4p_branch2b/kernel:0                       (3, 3, 256, 256)      -0.0882        +0.1109      +0.0100   
+res4p_branch2b/bias:0                              (256,)           -0.0014        +0.0026      +0.0007   
+bn4p_branch2b/gamma:0                              (256,)           +0.4411        +1.3898      +0.1304   
+bn4p_branch2b/beta:0                               (256,)           -1.4135        +0.4025      +0.2474   
+bn4p_branch2b/moving_mean:0                        (256,)           -0.4054        +0.3653      +0.1037   
+bn4p_branch2b/moving_variance:0                    (256,)           +0.0251        +0.1553      +0.0220   
+res4p_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1112        +0.1682      +0.0119   
+res4p_branch2c/bias:0                             (1024,)           -0.0018        +0.0023      +0.0006   
+bn4p_branch2c/gamma:0                             (1024,)           +0.1798        +1.7109      +0.1945   
+bn4p_branch2c/beta:0                              (1024,)           -1.0352        +0.3860      +0.1620   
+bn4p_branch2c/moving_mean:0                       (1024,)           -0.2053        +0.1271      +0.0407   
+bn4p_branch2c/moving_variance:0                   (1024,)           +0.0015        +0.0479      +0.0040   
+res4q_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1244        +0.2540      +0.0135   
+res4q_branch2a/bias:0                              (256,)           -0.0002        +0.0004      +0.0001   
+bn4q_branch2a/gamma:0                              (256,)           +0.3410        +1.0031      +0.1056   
+bn4q_branch2a/beta:0                               (256,)           -1.5839        +0.3562      +0.2876   
+bn4q_branch2a/moving_mean:0                        (256,)           -5.2214        +2.3356      +1.1035   
+bn4q_branch2a/moving_variance:0                    (256,)           +0.6609       +11.6783      +0.9515   
+res4q_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1791        +0.1978      +0.0087   
+res4q_branch2b/bias:0                              (256,)           -0.0019        +0.0026      +0.0008   
+bn4q_branch2b/gamma:0                              (256,)           +0.6497        +1.4637      +0.1187   
+bn4q_branch2b/beta:0                               (256,)           -1.1866        +0.3726      +0.2477   
+bn4q_branch2b/moving_mean:0                        (256,)           -0.3519        +0.1123      +0.0780   
+bn4q_branch2b/moving_variance:0                    (256,)           +0.0133        +0.1143      +0.0136   
+res4q_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1708        +0.1724      +0.0116   
+res4q_branch2c/bias:0                             (1024,)           -0.0018        +0.0018      +0.0005   
+bn4q_branch2c/gamma:0                             (1024,)           +0.0367        +2.1129      +0.2125   
+bn4q_branch2c/beta:0                              (1024,)           -0.7801        +0.3530      +0.1494   
+bn4q_branch2c/moving_mean:0                       (1024,)           -0.3719        +0.2027      +0.0712   
+bn4q_branch2c/moving_variance:0                   (1024,)           +0.0013        +0.0541      +0.0063   
+res4r_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1732        +0.2514      +0.0135   
+res4r_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4r_branch2a/gamma:0                              (256,)           +0.2812        +0.9198      +0.1063   
+bn4r_branch2a/beta:0                               (256,)           -1.3453        +0.2738      +0.2650   
+bn4r_branch2a/moving_mean:0                        (256,)           -2.7110        +3.0688      +0.9259   
+bn4r_branch2a/moving_variance:0                    (256,)           +0.8098        +9.7240      +0.7793   
+res4r_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1301        +0.1872      +0.0084   
+res4r_branch2b/bias:0                              (256,)           -0.0021        +0.0033      +0.0010   
+bn4r_branch2b/gamma:0                              (256,)           +0.5126        +1.4543      +0.1369   
+bn4r_branch2b/beta:0                               (256,)           -0.9098        +0.6826      +0.2111   
+bn4r_branch2b/moving_mean:0                        (256,)           -0.2939        +0.1038      +0.0677   
+bn4r_branch2b/moving_variance:0                    (256,)           +0.0066        +0.0804      +0.0106   
+res4r_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.0859        +0.1765      +0.0110   
+res4r_branch2c/bias:0                             (1024,)           -0.0022        +0.0019      +0.0005   
+bn4r_branch2c/gamma:0                             (1024,)           +0.1361        +1.7460      +0.1510   
+bn4r_branch2c/beta:0                              (1024,)           -0.7476        +0.3265      +0.1342   
+bn4r_branch2c/moving_mean:0                       (1024,)           -0.2626        +0.1839      +0.0649   
+bn4r_branch2c/moving_variance:0                   (1024,)           +0.0028        +0.0670      +0.0051   
+res4s_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1292        +0.1828      +0.0127   
+res4s_branch2a/bias:0                              (256,)           -0.0003        +0.0004      +0.0001   
+bn4s_branch2a/gamma:0                              (256,)           +0.3422        +0.9709      +0.1061   
+bn4s_branch2a/beta:0                               (256,)           -1.2851        +0.5316      +0.2681   
+bn4s_branch2a/moving_mean:0                        (256,)           -8.8698        +2.0926      +1.2141   
+bn4s_branch2a/moving_variance:0                    (256,)           +0.6463       +17.2415      +1.1652   
+res4s_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1999        +0.1850      +0.0083   
+res4s_branch2b/bias:0                              (256,)           -0.0014        +0.0023      +0.0008   
+bn4s_branch2b/gamma:0                              (256,)           +0.5177        +1.1958      +0.1044   
+bn4s_branch2b/beta:0                               (256,)           -1.1253        +0.3303      +0.2240   
+bn4s_branch2b/moving_mean:0                        (256,)           -0.4850        +0.1296      +0.0932   
+bn4s_branch2b/moving_variance:0                    (256,)           +0.0122        +0.0847      +0.0115   
+res4s_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1152        +0.1701      +0.0109   
+res4s_branch2c/bias:0                             (1024,)           -0.0022        +0.0027      +0.0006   
+bn4s_branch2c/gamma:0                             (1024,)           +0.1491        +1.7343      +0.1423   
+bn4s_branch2c/beta:0                              (1024,)           -0.7702        +0.4371      +0.1229   
+bn4s_branch2c/moving_mean:0                       (1024,)           -0.2327        +0.1329      +0.0533   
+bn4s_branch2c/moving_variance:0                   (1024,)           +0.0022        +0.0453      +0.0037   
+res4t_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1593        +0.1777      +0.0127   
+res4t_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4t_branch2a/gamma:0                              (256,)           +0.4361        +1.2402      +0.1056   
+bn4t_branch2a/beta:0                               (256,)           -1.1246        +0.2644      +0.2434   
+bn4t_branch2a/moving_mean:0                        (256,)           -6.3550        +2.2208      +1.3414   
+bn4t_branch2a/moving_variance:0                    (256,)           +0.7818        +5.8100      +0.6672   
+res4t_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1316        +0.1061      +0.0091   
+res4t_branch2b/bias:0                              (256,)           -0.0012        +0.0018      +0.0005   
+bn4t_branch2b/gamma:0                              (256,)           +0.4603        +1.2421      +0.1069   
+bn4t_branch2b/beta:0                               (256,)           -1.1016        +0.6846      +0.2192   
+bn4t_branch2b/moving_mean:0                        (256,)           -0.8846        +0.4358      +0.1821   
+bn4t_branch2b/moving_variance:0                    (256,)           +0.0364        +0.3580      +0.0398   
+res4t_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1657        +0.1616      +0.0114   
+res4t_branch2c/bias:0                             (1024,)           -0.0024        +0.0022      +0.0006   
+bn4t_branch2c/gamma:0                             (1024,)           +0.2183        +1.9895      +0.1715   
+bn4t_branch2c/beta:0                              (1024,)           -0.7889        +0.3011      +0.1334   
+bn4t_branch2c/moving_mean:0                       (1024,)           -0.2121        +0.1756      +0.0493   
+bn4t_branch2c/moving_variance:0                   (1024,)           +0.0014        +0.0391      +0.0036   
+res4u_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1057        +0.1566      +0.0119   
+res4u_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4u_branch2a/gamma:0                              (256,)           +0.2834        +1.1096      +0.1160   
+bn4u_branch2a/beta:0                               (256,)           -1.2988        +0.5389      +0.2511   
+bn4u_branch2a/moving_mean:0                        (256,)           -9.9501        +2.8899      +1.3347   
+bn4u_branch2a/moving_variance:0                    (256,)           +0.4432       +12.1801      +1.2243   
+res4u_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1245        +0.1182      +0.0078   
+res4u_branch2b/bias:0                              (256,)           -0.0013        +0.0021      +0.0006   
+bn4u_branch2b/gamma:0                              (256,)           +0.6163        +1.3519      +0.1058   
+bn4u_branch2b/beta:0                               (256,)           -0.9694        +0.4349      +0.2029   
+bn4u_branch2b/moving_mean:0                        (256,)           -0.5389        +0.4149      +0.1213   
+bn4u_branch2b/moving_variance:0                    (256,)           +0.0170        +0.1117      +0.0160   
+res4u_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1377        +0.1975      +0.0103   
+res4u_branch2c/bias:0                             (1024,)           -0.0017        +0.0024      +0.0005   
+bn4u_branch2c/gamma:0                             (1024,)           +0.0981        +1.7796      +0.1395   
+bn4u_branch2c/beta:0                              (1024,)           -0.7754        +0.6953      +0.1624   
+bn4u_branch2c/moving_mean:0                       (1024,)           -0.2808        +0.1409      +0.0702   
+bn4u_branch2c/moving_variance:0                   (1024,)           +0.0023        +0.0837      +0.0066   
+res4v_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1568        +0.2234      +0.0122   
+res4v_branch2a/bias:0                              (256,)           -0.0002        +0.0003      +0.0001   
+bn4v_branch2a/gamma:0                              (256,)           +0.3904        +1.0102      +0.0933   
+bn4v_branch2a/beta:0                               (256,)           -1.2257        +0.4483      +0.2691   
+bn4v_branch2a/moving_mean:0                        (256,)           -6.7398        +2.1281      +1.2705   
+bn4v_branch2a/moving_variance:0                    (256,)           +0.6142        +6.2192      +0.7720   
+res4v_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1398        +0.1637      +0.0083   
+res4v_branch2b/bias:0                              (256,)           -0.0015        +0.0016      +0.0005   
+bn4v_branch2b/gamma:0                              (256,)           +0.6159        +1.1549      +0.0910   
+bn4v_branch2b/beta:0                               (256,)           -1.0152        +0.8734      +0.1889   
+bn4v_branch2b/moving_mean:0                        (256,)           -0.5943        +0.2525      +0.1225   
+bn4v_branch2b/moving_variance:0                    (256,)           +0.0272        +0.2850      +0.0257   
+res4v_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1069        +0.1670      +0.0109   
+res4v_branch2c/bias:0                             (1024,)           -0.0022        +0.0023      +0.0005   
+bn4v_branch2c/gamma:0                             (1024,)           +0.2323        +1.6634      +0.1349   
+bn4v_branch2c/beta:0                              (1024,)           -0.9276        +0.5132      +0.1990   
+bn4v_branch2c/moving_mean:0                       (1024,)           -0.3138        +0.2207      +0.0648   
+bn4v_branch2c/moving_variance:0                   (1024,)           +0.0023        +0.0550      +0.0047   
+res4w_branch2a/kernel:0                      (1, 1, 1024, 256)      -0.1348        +0.2109      +0.0126   
+res4w_branch2a/bias:0                              (256,)           -0.0003        +0.0003      +0.0001   
+bn4w_branch2a/gamma:0                              (256,)           +0.2476        +1.0833      +0.1122   
+bn4w_branch2a/beta:0                               (256,)           -1.4638        +0.3453      +0.2942   
+bn4w_branch2a/moving_mean:0                        (256,)          -15.1299        +2.8008      +2.1165   
+bn4w_branch2a/moving_variance:0                    (256,)           +0.7279       +19.8808      +1.5136   
+res4w_branch2b/kernel:0                       (3, 3, 256, 256)      -0.1028        +0.1705      +0.0083   
+res4w_branch2b/bias:0                              (256,)           -0.0022        +0.0026      +0.0007   
+bn4w_branch2b/gamma:0                              (256,)           +0.7043        +1.4043      +0.0988   
+bn4w_branch2b/beta:0                               (256,)           -0.9662        +0.3885      +0.2009   
+bn4w_branch2b/moving_mean:0                        (256,)           -0.3679        +0.2234      +0.0824   
+bn4w_branch2b/moving_variance:0                    (256,)           +0.0133        +0.1334      +0.0153   
+res4w_branch2c/kernel:0                      (1, 1, 256, 1024)      -0.1439        +0.1879      +0.0108   
+res4w_branch2c/bias:0                             (1024,)           -0.0013        +0.0016      +0.0004   
+bn4w_branch2c/gamma:0                             (1024,)           +0.0218        +1.5397      +0.1516   
+bn4w_branch2c/beta:0                              (1024,)           -0.8511        +0.5035      +0.1815   
+bn4w_branch2c/moving_mean:0                       (1024,)           -0.4728        +0.1823      +0.1269   
+bn4w_branch2c/moving_variance:0                   (1024,)           +0.0008        +0.1209      +0.0090   
+res5a_branch2a/kernel:0                      (1, 1, 1024, 512)      -0.1738        +0.2132      +0.0142   
+res5a_branch2a/bias:0                              (512,)           -0.0004        +0.0003      +0.0001   
+bn5a_branch2a/gamma:0                              (512,)           +0.5009        +1.2290      +0.1231   
+bn5a_branch2a/beta:0                               (512,)           -1.4502        +0.4993      +0.3033   
+bn5a_branch2a/moving_mean:0                        (512,)          -11.4545        +4.6925      +1.6878   
+bn5a_branch2a/moving_variance:0                    (512,)           +1.1314       +15.7920      +1.4502   
+res5a_branch2b/kernel:0                       (3, 3, 512, 512)      -0.2447        +0.3224      +0.0090   
+res5a_branch2b/bias:0                              (512,)           -0.0009        +0.0009      +0.0003   
+bn5a_branch2b/gamma:0                              (512,)           +0.3041        +1.4099      +0.1359   
+bn5a_branch2b/beta:0                               (512,)           -1.6462        +0.7151      +0.3145   
+bn5a_branch2b/moving_mean:0                        (512,)           -2.2210        +1.7648      +0.3094   
+bn5a_branch2b/moving_variance:0                    (512,)           +0.1187        +1.4766      +0.1865   
+res5a_branch2c/kernel:0                      (1, 1, 512, 2048)      -0.2853        +0.3237      +0.0121   
+res5a_branch2c/bias:0                             (2048,)           -0.0017        +0.0047      +0.0004   
+res5a_branch1/kernel:0                       (1, 1, 1024, 2048)     -0.3707        +0.4657      +0.0104   
+res5a_branch1/bias:0                              (2048,)           -0.0003        +0.0004      +0.0001   
+bn5a_branch2c/gamma:0                             (2048,)           +0.6630        +2.6868      +0.2373   
+bn5a_branch2c/beta:0                              (2048,)           -1.8489        +1.4641      +0.2354   
+bn5a_branch2c/moving_mean:0                       (2048,)           -0.5774        +0.6525      +0.0644   
+bn5a_branch2c/moving_variance:0                   (2048,)           +0.0024        +0.1612      +0.0084   
+bn5a_branch1/gamma:0                              (2048,)           +0.8582        +4.8496      +0.5097   
+bn5a_branch1/beta:0                               (2048,)           -1.8488        +1.4644      +0.2354   
+bn5a_branch1/moving_mean:0                        (2048,)          -10.0727        +4.4287      +1.0954   
+bn5a_branch1/moving_variance:0                    (2048,)           +0.2868        +7.7099      +0.5971   
+res5b_branch2a/kernel:0                      (1, 1, 2048, 512)      -0.1599        +0.2517      +0.0106   
+res5b_branch2a/bias:0                              (512,)           -0.0002        +0.0006      +0.0001   
+bn5b_branch2a/gamma:0                              (512,)           +0.3783        +1.1329      +0.0958   
+bn5b_branch2a/beta:0                               (512,)           -1.1817        +0.5988      +0.1972   
+bn5b_branch2a/moving_mean:0                        (512,)           -4.4332        +5.7965      +0.6776   
+bn5b_branch2a/moving_variance:0                    (512,)           +0.8363        +7.6290      +0.8946   
+res5b_branch2b/kernel:0                       (3, 3, 512, 512)      -0.1318        +0.2404      +0.0079   
+res5b_branch2b/bias:0                              (512,)           -0.0007        +0.0014      +0.0003   
+bn5b_branch2b/gamma:0                              (512,)           +0.5244        +1.1690      +0.1050   
+bn5b_branch2b/beta:0                               (512,)           -1.8374        +0.5500      +0.2784   
+bn5b_branch2b/moving_mean:0                        (512,)           -1.3069        +1.7223      +0.2265   
+bn5b_branch2b/moving_variance:0                    (512,)           +0.0572        +1.0433      +0.0724   
+res5b_branch2c/kernel:0                      (1, 1, 512, 2048)      -0.1341        +0.1959      +0.0105   
+res5b_branch2c/bias:0                             (2048,)           -0.0023        +0.0038      +0.0004   
+bn5b_branch2c/gamma:0                             (2048,)           +0.5627        +2.4065      +0.2233   
+bn5b_branch2c/beta:0                              (2048,)           -2.3544        +0.1636      +0.2122   
+bn5b_branch2c/moving_mean:0                       (2048,)           -0.4428        +1.0842      +0.0525   
+bn5b_branch2c/moving_variance:0                   (2048,)           +0.0020        +0.2272      +0.0065   
+res5c_branch2a/kernel:0                      (1, 1, 2048, 512)      -0.1972        +0.3576      +0.0114   
+res5c_branch2a/bias:0                              (512,)           -0.0003        +0.0010      +0.0001   
+bn5c_branch2a/gamma:0                              (512,)           +0.1701        +1.1339      +0.0974   
+bn5c_branch2a/beta:0                               (512,)           -1.3939        +0.8510      +0.2520   
+bn5c_branch2a/moving_mean:0                        (512,)           -3.1862        +5.4617      +0.5412   
+bn5c_branch2a/moving_variance:0                    (512,)           +0.5824        +9.3422      +1.1140   
+res5c_branch2b/kernel:0                       (3, 3, 512, 512)      -0.0934        +0.0979      +0.0071   
+res5c_branch2b/bias:0                              (512,)           -0.0009        +0.0021      +0.0004   
+bn5c_branch2b/gamma:0                              (512,)           +0.4851        +1.1433      +0.0917   
+bn5c_branch2b/beta:0                               (512,)           -1.4239        +0.3343      +0.2745   
+bn5c_branch2b/moving_mean:0                        (512,)           -0.6456        +0.1676      +0.1068   
+bn5c_branch2b/moving_variance:0                    (512,)           +0.0354        +0.4077      +0.0522   
+res5c_branch2c/kernel:0                      (1, 1, 512, 2048)      -0.1305        +0.1310      +0.0102   
+res5c_branch2c/bias:0                             (2048,)           -0.0015        +0.0018      +0.0004   
+bn5c_branch2c/gamma:0                             (2048,)           +0.6002        +2.5362      +0.2190   
+bn5c_branch2c/beta:0                              (2048,)           -4.0099        -0.6662      +0.2211   
+bn5c_branch2c/moving_mean:0                       (2048,)           -0.3058        +0.1791      +0.0368   
+bn5c_branch2c/moving_variance:0                   (2048,)           +0.0024        +0.0645      +0.0039   
+fpn_c5p5/kernel:0                            (1, 1, 2048, 256)      -0.0510        +0.0565      +0.0073   
+fpn_c5p5/bias:0                                    (256,)           -0.0142        +0.0118      +0.0050   
+fpn_c4p4/kernel:0                            (1, 1, 1024, 256)      -0.1123        +0.0818      +0.0094   
+fpn_c4p4/bias:0                                    (256,)           -0.0045        +0.0040      +0.0014   
+fpn_c3p3/kernel:0                             (1, 1, 512, 256)      -0.0493        +0.0515      +0.0072   
+fpn_c3p3/bias:0                                    (256,)           -0.0061        +0.0056      +0.0019   
+fpn_c2p2/kernel:0                             (1, 1, 256, 256)      -0.0335        +0.0486      +0.0057   
+fpn_c2p2/bias:0                                    (256,)           -0.0052        +0.0061      +0.0020   
+fpn_p5/kernel:0                               (3, 3, 256, 256)      -0.0338        +0.0381      +0.0054   
+fpn_p5/bias:0                                      (256,)           -0.0081        +0.0080      +0.0035   
+fpn_p2/kernel:0                               (3, 3, 256, 256)      -0.0273        +0.0333      +0.0051   
+fpn_p2/bias:0                                      (256,)           -0.0067        +0.0057      +0.0022   
+fpn_p3/kernel:0                               (3, 3, 256, 256)      -0.0241        +0.0286      +0.0046   
+fpn_p3/bias:0                                      (256,)           -0.0038        +0.0039      +0.0015   
+fpn_p4/kernel:0                               (3, 3, 256, 256)      -0.0272        +0.0313      +0.0048   
+fpn_p4/bias:0                                      (256,)           -0.0038        +0.0035      +0.0016   
+rpn_conv_shared/kernel:0                      (3, 3, 256, 512)      -0.0218        +0.0220      +0.0015   
+rpn_conv_shared/bias:0                             (512,)           -0.0018        +0.0046      +0.0006   
+rpn_class_raw/kernel:0                         (1, 1, 512, 6)       -0.0747        +0.0747      +0.0107   
+rpn_class_raw/bias:0                                (6,)            -0.0125        +0.0125      +0.0075   
+rpn_bbox_pred/kernel:0                        (1, 1, 512, 12)       -0.0799        +0.1855      +0.0167   
+rpn_bbox_pred/bias:0                               (12,)            -0.0210        +0.0246      +0.0135   
+mrcnn_class_conv1/kernel:0                   (7, 7, 256, 1024)      -0.0240        +0.0257      +0.0032   
+mrcnn_class_conv1/bias:0                          (1024,)           -0.0014        +0.0003      +0.0003   
+mrcnn_class_bn1/gamma:0                           (1024,)           +0.9524        +1.0386      +0.0077   
+mrcnn_class_bn1/beta:0                            (1024,)           -0.0322        +0.0047      +0.0034   
+mrcnn_class_bn1/moving_mean:0                     (1024,)          -20.4790        +8.7007      +2.2488   
+mrcnn_class_bn1/moving_variance:0                 (1024,)           +3.2710      +175.0298     +10.5956   
+mrcnn_class_conv2/kernel:0                   (1, 1, 1024, 1024)     -0.0664        +0.0370      +0.0051   
+mrcnn_class_conv2/bias:0                          (1024,)           -0.0178        +0.0246      +0.0044   
+mrcnn_class_bn2/gamma:0                           (1024,)           +0.9705        +1.0426      +0.0089   
+mrcnn_class_bn2/beta:0                            (1024,)           -0.0122        +0.0285      +0.0042   
+mrcnn_class_bn2/moving_mean:0                     (1024,)           -0.6272        +0.5237      +0.1323   
+mrcnn_class_bn2/moving_variance:0                 (1024,)           +0.0072        +0.6561      +0.0431   
+mrcnn_class_logits/kernel:0                      (1024, 81)         -0.1148        +0.2102      +0.0163   
+mrcnn_class_logits/bias:0                          (81,)            -0.0112        +0.1047      +0.0131   
+mrcnn_bbox_fc/kernel:0                          (1024, 324)         -0.0696        +0.0773      +0.0070   
+mrcnn_bbox_fc/bias:0                               (324,)           -0.0088        +0.0332      +0.0027   
+mrcnn_mask_conv1/kernel:0                     (3, 3, 256, 256)      -0.0537        +0.0470      +0.0045   
+mrcnn_mask_conv1/bias:0                            (256,)           -0.0036        +0.0022      +0.0009   
+mrcnn_mask_bn1/gamma:0                             (256,)           +0.9716        +1.0834      +0.0125   
+mrcnn_mask_bn1/beta:0                              (256,)           -0.0214        +0.0027      +0.0035   
+mrcnn_mask_bn1/moving_mean:0                       (256,)           -4.2402        +1.4667      +0.7274   
+mrcnn_mask_bn1/moving_variance:0                   (256,)           +0.3057        +5.8205      +0.9377   
+mrcnn_mask_conv2/kernel:0                     (3, 3, 256, 256)      -0.0553        +0.1002      +0.0045   
+mrcnn_mask_conv2/bias:0                            (256,)           -0.0049        +0.0035      +0.0016   
+mrcnn_mask_bn2/gamma:0                             (256,)           +0.9759        +1.0324      +0.0093   
+mrcnn_mask_bn2/beta:0                              (256,)           -0.0175        +0.0022      +0.0034   
+mrcnn_mask_bn2/moving_mean:0                       (256,)           -0.7085        +0.2866      +0.1437   
+mrcnn_mask_bn2/moving_variance:0                   (256,)           +0.0300        +0.3525      +0.0369   
+mrcnn_mask_conv3/kernel:0                     (3, 3, 256, 256)      -0.0438        +0.0467      +0.0042   
+mrcnn_mask_conv3/bias:0                            (256,)           -0.0105        +0.0077      +0.0028   
+mrcnn_mask_bn3/gamma:0                             (256,)           +0.9780        +1.0279      +0.0076   
+mrcnn_mask_bn3/beta:0                              (256,)           -0.0309        +0.0011      +0.0044   
+mrcnn_mask_bn3/moving_mean:0                       (256,)           -0.5781        +0.2730      +0.1416   
+mrcnn_mask_bn3/moving_variance:0                   (256,)           +0.0265        +0.1663      +0.0258   
+mrcnn_mask_conv4/kernel:0                     (3, 3, 256, 256)      -0.0338        +0.0278      +0.0037   
+mrcnn_mask_conv4/bias:0                            (256,)           -0.0015        +0.0041      +0.0008   
+mrcnn_mask_bn4/gamma:0                             (256,)           +0.9893        +1.0642      +0.0184   
+mrcnn_mask_bn4/beta:0                              (256,)           +0.0042        +0.0452      +0.0110   
+mrcnn_mask_bn4/moving_mean:0                       (256,)           -0.2408        +0.1736      +0.0773   
+mrcnn_mask_bn4/moving_variance:0                   (256,)           +0.0150        +0.0639      +0.0084   
+mrcnn_mask_deconv/kernel:0                    (2, 2, 256, 256)      -0.0297        +0.0526      +0.0047   
+mrcnn_mask_deconv/bias:0                           (256,)           -0.0024        +0.0716      +0.0104   
+mrcnn_mask/kernel:0                           (1, 1, 256, 81)       -0.0768        +0.1120      +0.0149   
+mrcnn_mask/bias:0                                  (81,)            -0.0334        +0.0541      +0.0149   
