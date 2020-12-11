@@ -14,11 +14,14 @@ I use Anaconda to create environment and code edit on Spyder
 * GPU: NVIDIA GTX 1060
 * CUDA: 10.1
 * CuDNN: 7.6.5 for CUDA 10.1
+
 ### Work
-Update: 2020 Dec. 10
-- [X] run 'mrcnn'  on TF2 (use Shapes data)
+Update: 2020 Dec. 12
+- [X] run 'mrcnn' on TF2 (use Shapes data)
 - [X] input COCO dataset for training
 - [X] run inspect code from [matterport/Mask_RCNN/samples/coco](https://github.com/matterport/Mask_RCNN/tree/master/samples/coco)
-- [ ] input own dataset
+- [ ] ~~input own dataset~~
+- [ ] check training happen on COCO dataset
 - [ ] change backbone
-- [ ] remove mask part for implementation of Faster RCNN model
+- [ ] remove mask part for implementation of Faster RCNN model ([Here](https://github.com/jacky10001/Faster_RCNN-tf2))
+
