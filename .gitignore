@@ -125,4 +125,4 @@ dmypy.json
 .pyre/
 refer_repo/*
 log*/*
-mask_rcnn_coco.h5
+pretrained_model/*.h5

@@ -49,7 +49,7 @@ from mrcnn.samples import evaluate_coco
 
 class UserArg:
     # 'train' or 'evaluate' on MS COCO
-    command = 'train'
+    command = 'evaluate'
     
     # Path to weights
     model = 'coco'  # '*.h5' file or 'coco' and 'last'
@@ -70,7 +70,8 @@ class UserArg:
     download = True
     
     # pre-trained COCO weight
-    COCO_MODEL_PATH = 'mask_rcnn_coco.h5'
+    COCO_MODEL_PATH =\
+        os.path.join('pretrained_model','mask_rcnn_coco.h5')
 
 
 #%% Parse arguments

@@ -21,7 +21,8 @@ MODEL_DIR = os.path.join(LOG_ROOT,'model')
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # Local path to trained weights file
-COCO_MODEL_PATH = 'mask_rcnn_coco.h5'
+COCO_MODEL_PATH =\
+    os.path.join('pretrained_model','mask_rcnn_coco.h5')
 
 init_weights = "coco"  # imagenet, coco, or last
 

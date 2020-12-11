@@ -9,6 +9,8 @@ debug, and evaluate the Mask R-CNN model.
 @date: Thu Dec 10 02:15:47 2020
 """
 
+import os
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
@@ -24,7 +26,8 @@ from mrcnn.samples import CocoConfig
 MODEL_DIR = 'log_coco'
 
 # Local path to trained weights file
-COCO_MODEL_PATH = 'mask_rcnn_coco.h5'
+COCO_MODEL_PATH =\
+    os.path.join('pretrained_model','mask_rcnn_coco.h5')
 
 # Configurations
 config = CocoConfig()
