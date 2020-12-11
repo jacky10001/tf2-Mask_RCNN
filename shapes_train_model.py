@@ -66,7 +66,7 @@ for image_id in image_ids:
 model = modellib.MaskRCNN(mode="training", config=config,
                           model_dir=MODEL_DIR)
 tf.keras.utils.plot_model(model.keras_model,
-                          to_file='architecture_training.png',
+                          to_file=os.path.join(LOG_ROOT,'archi_training.png'),
                           show_shapes=True)
 
 
@@ -138,7 +138,7 @@ model = modellib.MaskRCNN(mode="inference",
                           config=inference_config,
                           model_dir=MODEL_DIR)
 tf.keras.utils.plot_model(model.keras_model,
-                          to_file='architecture_inference.png',
+                          to_file=os.path.join(LOG_ROOT,'archi_inference.png'),
                           show_shapes=True)
 
 # Get path to saved weights
