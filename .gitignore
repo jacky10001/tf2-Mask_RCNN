@@ -123,6 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-refer_repo/*
-log*/*
+log*/
 pretrained_model/*.h5
