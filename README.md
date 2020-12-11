@@ -16,7 +16,9 @@ I use Anaconda to create environment and code edit on Spyder
 * CuDNN: 7.6.5 for CUDA 10.1
 
 ### Work
-Update: 2020 Dec. 12
+Update: 2020 Dec. 12  
+Only input model and evaluate by pre-trained model.  
+For COCO training work not yet.  
 - [X] run 'mrcnn' on TF2 (use Shapes data)
 - [X] input COCO dataset for training
 - [X] run inspect code from [matterport/Mask_RCNN/samples/coco](https://github.com/matterport/Mask_RCNN/tree/master/samples/coco)
