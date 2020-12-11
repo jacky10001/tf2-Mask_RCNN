@@ -16,7 +16,8 @@ from mrcnn.model import log
 from mrcnn.samples import ShapesConfig
 from mrcnn.samples import ShapesDataset
 
-MODEL_DIR = 'log_shapes'
+LOG_ROOT = 'log_shapes'
+MODEL_DIR = os.path.join(LOG_ROOT,'model')
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # Local path to trained weights file
@@ -103,7 +104,7 @@ elif init_weights == "last":
 
 model.train(dataset_train, dataset_val, 
             learning_rate=config.LEARNING_RATE, 
-            epochs=3, 
+            epochs=2, 
             layers='heads')
 
 
@@ -114,7 +115,7 @@ model.train(dataset_train, dataset_val,
 
 model.train(dataset_train, dataset_val, 
             learning_rate=config.LEARNING_RATE / 10,
-            epochs=10, 
+            epochs=5, 
             layers="all")
 
 
