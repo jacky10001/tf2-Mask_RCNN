@@ -17,7 +17,7 @@ I use Anaconda to create environment and code edit on Spyder
 
 ### Work
 Update: 2020 Dec. 12  
-Only input model and evaluate by pre-trained model.  
+Only input and evaluate COCO data by pre-trained model.  
 For COCO training work not yet.  
 - [X] run 'mrcnn' on TF2 (use Shapes data)
 - [X] input COCO dataset for training
