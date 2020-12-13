@@ -2,7 +2,7 @@
 ### Changed log in mrcnn/model.py
 
 
-* change import function
+* Import **tf.keras** function  
 ```
 import keras
 import keras.backend as K
@@ -17,8 +17,13 @@ from tensorflow.keras import layers as KL    # All KE replace to KL
 from tensorflow.keras import models as KM
 ```
 
+* Run keras need close eager execution  
+'''
+tf.compat.v1.disable_eager_execution()
+'''
 
-* Can't use None
+
+* Can't use 'None'
 ```
 s = K.int_shape(x)
 mrcnn_bbox = KL.Reshape((s[1], num_classes, 4), name="mrcnn_bbox")(x)
