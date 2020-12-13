@@ -99,11 +99,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     else:
         assert boxes.shape[0] == masks.shape[-1] == class_ids.shape[0]
 
-    # If no axis is passed, create one and automatically call show()
-    auto_show = False
     if not ax:
         _, ax = plt.subplots(1, figsize=figsize)
-        auto_show = True
 
     # Generate random colors
     colors = colors or random_colors(N)
@@ -158,8 +155,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             p = Polygon(verts, facecolor="none", edgecolor=color)
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
-    if auto_show:
-        plt.show()
+    plt.show()
 
 
 def display_differences(image,
