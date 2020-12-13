@@ -12,7 +12,7 @@ from .balloon import BalloonConfig
 from .balloon import BalloonDataset
 from .balloon import detect_and_color_splash
 
-# Import balloon dataset
+# Import nucleus dataset
 from .nucleus import NucleusConfig
 from .nucleus import NucleusDataset
 from .nucleus import detect
