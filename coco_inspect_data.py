@@ -20,8 +20,8 @@ import mrcnn.model as modellib
 from mrcnn.model import log
 
 # Import sample module
-from mrcnn.samples import CocoConfig
-from mrcnn.samples import CocoDataset
+from mrcnn.samples.coco import CocoConfig
+from mrcnn.samples.coco import CocoDataset
 
 
 #%% Configurations

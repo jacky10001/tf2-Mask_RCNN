@@ -37,9 +37,9 @@ import mrcnn.model as modellib
 import imgaug  # pip install imgaug==0.2.6
 
 # Import sample module
-from mrcnn.samples import CocoConfig
-from mrcnn.samples import CocoDataset
-from mrcnn.samples import evaluate_coco
+from mrcnn.samples.coco import CocoConfig
+from mrcnn.samples.coco import CocoDataset
+from mrcnn.samples.coco import evaluate_coco
 
 
 #%%

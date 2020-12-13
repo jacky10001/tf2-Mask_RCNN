@@ -13,8 +13,8 @@ from mrcnn import visualize
 from mrcnn.model import log
 
 # Import sample module
-from mrcnn.samples import ShapesConfig
-from mrcnn.samples import ShapesDataset
+from mrcnn.samples.shapes import ShapesConfig
+from mrcnn.samples.shapes import ShapesDataset
 
 LOG_ROOT = 'log_shapes'
 MODEL_DIR = os.path.join(LOG_ROOT,'model')

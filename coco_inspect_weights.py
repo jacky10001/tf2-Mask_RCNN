@@ -10,7 +10,6 @@ debug, and evaluate the Mask R-CNN model.
 """
 
 import os
-
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
@@ -18,9 +17,9 @@ import matplotlib.pyplot as plt
 import mrcnn.model as modellib
 from mrcnn import visualize
 
-
 # Import sample module
-from mrcnn.samples import CocoConfig
+from mrcnn.samples.coco import CocoConfig
+
 
 # Directory to save logs and trained model
 MODEL_DIR = 'log_coco'
