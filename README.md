@@ -5,7 +5,7 @@ Also I implementation of model on MS COCO dataset.
 
 ### Requir package
 I use Anaconda to create environment and code edit on Spyder
-* tensorflow 2.1.0
+* tensorflow 2.1.0 (2.3.0 also can run, but will very many warning)
 * Keras 2.3.1
 * others in [requirements.txt](https://github.com/jacky10001/Mask_RCNN-tf2/blob/main/requirements.txt)
 
@@ -24,6 +24,5 @@ For COCO training work not yet.
 - [X] run inspect code from [matterport/Mask_RCNN/samples/coco](https://github.com/matterport/Mask_RCNN/tree/master/samples/coco)
 - [ ] ~~input own dataset~~
 - [ ] check training happen on COCO dataset
-- [ ] change backbone
 - [ ] remove mask part for implementation of Faster RCNN model ([Here](https://github.com/jacky10001/Faster_RCNN-tf2))
 
