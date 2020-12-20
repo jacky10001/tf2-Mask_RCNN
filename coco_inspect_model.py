@@ -101,7 +101,8 @@ model.load_weights(weights_path, by_name=True)
 
 #%% Run Detection
 image_id = random.choice(dataset.image_ids)
-image, image_meta, gt_class_id, gt_bbox, gt_mask =    modellib.load_image_gt(dataset, config, image_id, use_mini_mask=False)
+image, image_meta, gt_class_id, gt_bbox, gt_mask =\
+    modellib.load_image_gt(dataset, config, image_id, use_mini_mask=False)
 info = dataset.image_info[image_id]
 print("image ID: {}.{} ({}) {}".format(info["source"], info["id"], image_id, 
                                        dataset.image_reference(image_id)))
@@ -141,7 +142,8 @@ def compute_batch_ap(image_ids):
     APs = []
     for image_id in image_ids:
         # Load image
-        image, image_meta, gt_class_id, gt_bbox, gt_mask =            modellib.load_image_gt(dataset, config,
+        image, image_meta, gt_class_id, gt_bbox, gt_mask =\
+            modellib.load_image_gt(dataset, config,
                                    image_id, use_mini_mask=False)
         # Run object detection
         results = model.detect([image], verbose=0)
