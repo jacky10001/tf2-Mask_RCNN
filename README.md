@@ -22,7 +22,6 @@ For COCO training work not yet.
 - [X] run 'mrcnn' on TF2 (use Shapes data)
 - [X] input COCO dataset for training
 - [X] run inspect code from [matterport/Mask_RCNN/samples/coco](https://github.com/matterport/Mask_RCNN/tree/master/samples/coco)
-- [ ] ~~input own dataset~~
-- [ ] check training happen on COCO dataset
-- [ ] remove mask part for implementation of Faster RCNN model ([Here](https://github.com/jacky10001/Faster_RCNN-tf2))
+- [X] check training happen on COCO dataset
+- [X] remove mask part for implementation of Faster RCNN model ([Here](https://github.com/jacky10001/Faster_RCNN-tf2))
 
